@@ -1,0 +1,1432 @@
+[07-Sep-2022 08:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php:28
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '<div class="wra...', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '\n<div class="wp...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/blocks/template-part.php(138): do_shortcode('\n<div class="wp...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-block.php(255): render_block_core_template_part(Array, '', Object(WP_Block))
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/blocks.php(902): WP_Block->render()
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/blocks.php(940): render_block(Array)
+#7 /home/lah in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 28
+[07-Sep-2022 08:11:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php:35
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '<div class="wra...', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '\n<div class="wp...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/blocks/template-part.php(138): do_shortcode('\n<div class="wp...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-block.php(255): render_block_core_template_part(Array, '', Object(WP_Block))
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/blocks.php(902): WP_Block->render()
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/blocks.php(940): render_block(Array)
+#7 /home/lah in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 35
+[07-Sep-2022 08:48:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  get_the_post_thumbnail() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php:32
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '<div class="wra...', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '\n<div class="wp...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/block-template.php(245): do_shortcode('\n<div class="wp...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#7 / in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 32
+[07-Sep-2022 08:48:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  get_the_post_thumbnail() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php:32
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '<div class="wra...', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '\n<div class="wp...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/block-template.php(245): do_shortcode('\n<div class="wp...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#7 / in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 32
+[07-Sep-2022 08:50:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  get_the_post_thumbnail() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php:32
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '<div class="wra...', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '\n<div class="wp...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/block-template.php(245): do_shortcode('\n<div class="wp...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#7 / in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 32
+[07-Sep-2022 08:50:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  get_the_post_thumbnail() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php:32
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '<div class="wra...', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '\n<div class="wp...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/block-template.php(245): do_shortcode('\n<div class="wp...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#7 / in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 32
+[07-Sep-2022 10:15:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Sep-2022 10:15:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Sep-2022 10:16:04 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Sep-2022 10:22:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Sep-2022 10:22:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Sep-2022 10:22:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Sep-2022 10:22:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:11:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:38:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:40:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:40:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:40:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:41:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:42:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:43:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 03:43:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 04:07:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 04:09:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 04:19:43 UTC] PHP Fatal error:  Cannot redeclare product_laha() (previously declared in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:27) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 83
+[08-Sep-2022 04:20:06 UTC] PHP Fatal error:  Cannot redeclare product_laha() (previously declared in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:27) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 83
+[08-Sep-2022 04:40:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 04:40:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 06:09:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 06:09:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 06:09:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 06:33:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 06:33:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 06:44:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 06:48:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 06:48:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:01:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:08:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 67
+[08-Sep-2022 07:08:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:81
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '<div class="wra...', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(20): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881 in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 81
+[08-Sep-2022 07:10:24 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 181
+[08-Sep-2022 07:29:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 240
+[08-Sep-2022 07:32:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:32:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:32:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:33:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:34:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:34:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:35:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:38:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:41:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:42:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:42:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:43:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:44:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:45:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:48:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:48:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:51:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:51:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:51:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:51:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:52:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:52:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:52:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:53:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:54:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:56:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:57:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:58:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 07:58:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:00:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:00:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:00:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:00:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:00:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:00:57 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:01:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:01:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:01:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:02:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:03:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:03:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:03:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:04:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:09:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:09:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:12:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:13:04 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:13:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:15:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 08:15:24 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 09:17:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 09:17:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 09:18:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 09:22:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 09:25:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 09:26:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 09:26:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 10:18:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 10:18:42 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 85
+[08-Sep-2022 10:19:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_price_html() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/templates/single-product/price.php:25
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1640): wc_get_template('single-product/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): woocommerce_template_single_price('')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(86): do_action('woocommerce_sin...')
+#6 /home/lah69881/public_html/lahacafe.vn/ba in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/templates/single-product/price.php on line 25
+[08-Sep-2022 10:19:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_price_html() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/templates/single-product/price.php:25
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1640): wc_get_template('single-product/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): woocommerce_template_single_price('')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(85): do_action('woocommerce_sin...')
+#6 /home/lah69881/public_html/lahacafe.vn/ba in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/templates/single-product/price.php on line 25
+[08-Sep-2022 10:20:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_price_html() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/templates/single-product/price.php:25
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1640): wc_get_template('single-product/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): woocommerce_template_single_price('')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(85): do_action('woocommerce_sin...')
+#6 /home/lah69881/public_html/lahacafe.vn/ba in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/templates/single-product/price.php on line 25
+[08-Sep-2022 10:27:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 10:30:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[08-Sep-2022 10:46:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 02:35:24 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 02:39:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 02:40:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 02:57:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:17:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:21:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:25:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:40:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:40:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:40:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:42:33 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:44:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 03:46:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 07:59:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:02:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:04:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:06:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:07:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:24:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:25:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:29:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:42:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 08:55:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 09:03:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 09:22:22 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 09:22:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 09:37:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 09:37:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 09:49:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 09:58:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_image() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php:28
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp- in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php on line 28
+[09-Sep-2022 09:59:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_image() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php:28
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp- in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php on line 28
+[09-Sep-2022 10:05:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 10:07:50 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 10:09:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 10:18:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 10:22:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 10:39:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Sep-2022 10:44:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 15:17:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 15:35:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 15:38:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 15:39:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 15:40:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 15:48:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 15:49:24 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:09:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:09:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:29:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:30:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:35:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:37:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:40:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:49:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:50:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:50:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:57:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 16:57:24 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 17:12:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/templates/checkout/payment.php on line 63
+[10-Sep-2022 17:31:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 17:56:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 17:56:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 17:56:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 18:07:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 18:43:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 18:51:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 18:51:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Sep-2022 19:05:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[11-Sep-2022 00:28:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[11-Sep-2022 00:28:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[11-Sep-2022 03:55:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[11-Sep-2022 04:01:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[11-Sep-2022 04:01:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[11-Sep-2022 04:04:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Sep-2022 02:41:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Sep-2022 02:41:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Sep-2022 02:44:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Sep-2022 02:48:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Sep-2022 02:56:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Sep-2022 04:39:20 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:26
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 26
+[12-Sep-2022 04:41:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 20
+[12-Sep-2022 04:48:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 21
+[12-Sep-2022 04:49:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 21
+[12-Sep-2022 04:49:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 21
+[12-Sep-2022 04:50:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 21
+[12-Sep-2022 05:01:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Sep-2022 05:41:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Sep-2022 05:51:06 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING), expecting ')' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 43
+[12-Sep-2022 05:51:07 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING), expecting ')' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 43
+[12-Sep-2022 05:51:47 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING), expecting ')' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 39
+[12-Sep-2022 05:51:56 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING), expecting ')' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 38
+[12-Sep-2022 05:52:09 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING), expecting ')' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 38
+[12-Sep-2022 06:04:33 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:49
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 49
+[12-Sep-2022 06:04:43 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:49
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 49
+[12-Sep-2022 06:06:29 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:34
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 34
+[12-Sep-2022 06:26:48 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:35
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 35
+[12-Sep-2022 07:14:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[13-Sep-2022 03:43:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[13-Sep-2022 03:48:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_term_term() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:35
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 35
+[13-Sep-2022 03:48:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_term_term() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:35
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 35
+[13-Sep-2022 04:25:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[13-Sep-2022 05:02:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[13-Sep-2022 05:02:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[13-Sep-2022 05:03:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[13-Sep-2022 06:36:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:31:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:43:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:43:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:45:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:45:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:48:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:48:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:48:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 01:49:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 02:24:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 02:30:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 02:31:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 02:52:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 02:52:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 03:04:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 03:04:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 05:02:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:23:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:23:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:24:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:31:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:32:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:32:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:33:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:33:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:36:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:37:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:37:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:42:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:47:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:47:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:47:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:47:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:47:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:47:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:48:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:51:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 07:51:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:04:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:11:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:11:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:11:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:12:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:17:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:44:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:48:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 08:49:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 09:09:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 09:13:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 09:23:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 09:24:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[15-Sep-2022 09:24:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 02:59:59 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 125
+[16-Sep-2022 03:08:27 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 125
+[16-Sep-2022 03:09:23 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 125
+[16-Sep-2022 03:09:58 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 125
+[16-Sep-2022 03:10:07 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 125
+[16-Sep-2022 03:26:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 03:29:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 124
+[16-Sep-2022 03:30:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_is_logged_in() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:12
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 12
+[16-Sep-2022 03:31:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_is_logged_in() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:12
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 12
+[16-Sep-2022 03:31:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function user_is_logged_in() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:12
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 12
+[16-Sep-2022 03:32:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function user_is_logged_in() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:12
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 12
+[16-Sep-2022 03:33:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function user_is_logged_in() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php:13
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#3 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 13
+[16-Sep-2022 04:40:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 04:40:57 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 06:33:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 06:36:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 07:33:20 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 07:33:30 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 07:34:17 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 07:36:28 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 07:57:18 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 08:19:04 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 08:22:58 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 08:27:27 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 08:42:11 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 08:46:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 08:56:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 08:56:25 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 08:57:51 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 09:02:07 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 09:07:15 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 09:13:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[16-Sep-2022 09:19:52 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[16-Sep-2022 09:29:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 02:24:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 02:26:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 06:00:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 06:54:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 08:30:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 08:32:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 08:50:10 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[19-Sep-2022 09:06:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 09:09:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 09:27:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 09:36:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 09:36:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 09:40:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 09:40:33 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 09:42:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 09:44:11 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[19-Sep-2022 09:45:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 10:00:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 10:05:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 10:07:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 10:08:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 10:13:51 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[19-Sep-2022 10:26:40 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[19-Sep-2022 10:27:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 10:33:47 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[19-Sep-2022 10:45:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Sep-2022 14:29:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 03:11:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 03:12:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 03:17:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 03:18:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 03:24:50 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 03:26:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 04:35:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 04:38:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 04:38:24 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 04:38:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 04:41:01 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[20-Sep-2022 04:42:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 04:42:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2022 04:44:09 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[20-Sep-2022 04:44:33 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Sep-2022 07:29:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[21-Sep-2022 07:30:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[21-Sep-2022 07:31:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 06:15:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 06:16:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 06:35:04 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 06:36:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 06:38:55 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Sep-2022 06:39:58 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Sep-2022 06:39:58 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Sep-2022 07:08:49 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Sep-2022 07:11:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 07:11:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 07:13:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 08:12:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 08:18:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 08:21:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 08:37:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 08:44:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 09:30:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[22-Sep-2022 09:31:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[26-Sep-2022 02:29:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[26-Sep-2022 02:31:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[26-Sep-2022 02:33:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[26-Sep-2022 03:06:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[26-Sep-2022 03:21:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[26-Sep-2022 03:25:37 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[26-Sep-2022 03:51:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[26-Sep-2022 03:51:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[26-Sep-2022 03:51:55 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[27-Sep-2022 08:04:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 04:27:56 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Deadlock found when trying to get lock; try restarting transaction với truy vấn DELETE FROM `wp_options` WHERE `option_name` = '_site_transient_kirki_googlefonts_cache' yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Kirki_Modules_Webfonts->run, Kirki_Fonts_Google::get_instance, Kirki_Fonts_Google->__construct, Kirki_Fonts::get_google_fonts, get_site_transient, delete_site_option, delete_network_option, delete_option
+[29-Sep-2022 06:12:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 06:27:33 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 06:50:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 06:55:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 06:56:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 06:56:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 06:58:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 06:58:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:01:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:05:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:06:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:20:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:25:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:26:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:28:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:31:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:36:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 07:46:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 08:08:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 08:10:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 08:10:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 08:12:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:01:04 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:01:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:09:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:10:15 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[29-Sep-2022 09:10:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:11:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:23:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:27:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:27:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:30:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:30:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:37:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:53:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:54:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:58:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 09:59:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 10:01:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 10:01:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 10:09:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 10:10:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 10:18:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[29-Sep-2022 10:25:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 03:12:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 03:12:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 03:12:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 03:14:17 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 03:22:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 03:22:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 03:22:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 03:43:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 04:08:14 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Oct-2022 04:40:40 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Oct-2022 04:41:49 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Oct-2022 04:42:04 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Oct-2022 04:47:19 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Oct-2022 04:49:09 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Oct-2022 04:51:27 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Oct-2022 04:54:19 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Oct-2022 05:08:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:05:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:05:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:05:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:05:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:06:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:06:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:06:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:06:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:06:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:06:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:06:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:06:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:07:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:41:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:41:50 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:53:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:54:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 07:54:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 08:52:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 08:53:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[03-Oct-2022 09:05:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 01:47:22 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 01:47:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 01:51:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 01:51:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 01:59:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 02:40:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 02:41:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 02:42:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:33:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:35:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:35:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:36:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:36:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:37:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:37:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:37:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:45:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:46:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 03:47:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 04:04:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 04:04:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 04:04:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 04:05:45 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:06:05 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:06:12 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:06:27 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:07:29 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:07:30 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:07:58 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:09:40 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:40:21 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 04:40:44 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 05:10:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 05:10:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 05:11:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 05:11:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:40:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:40:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:40:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:40:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:46:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:46:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:47:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:47:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:59:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 06:59:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:02:48 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[04-Oct-2022 07:23:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:24:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:24:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:31:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:31:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:32:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:32:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:32:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:32:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:36:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:36:24 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:36:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:36:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:48:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:48:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:48:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:48:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:49:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:49:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:51:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 07:51:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:02:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:06:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:06:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:06:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:06:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:07:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:08:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:09:04 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:09:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:10:50 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:17:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:23:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:24:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:24:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:25:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:35:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_fee() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:464
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): add_coupon_notice(Object(WC_Cart))
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 /home/lah69881/public_html/lahacafe in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 464
+[04-Oct-2022 08:35:40 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to add_coupon_notice() must be an instance of WC_Cart, string given, called in /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php on line 307 and defined in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:453
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): add_coupon_notice('')
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php(22): do_action('woocommerce_bef...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/ in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 453
+[04-Oct-2022 08:36:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:36:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:37:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:37:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:38:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:39:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:41:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:41:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:43:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:43:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:44:17 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:53:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:54:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 08:55:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 09:21:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 09:21:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[04-Oct-2022 15:31:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[05-Oct-2022 01:44:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[05-Oct-2022 03:10:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[05-Oct-2022 03:21:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[05-Oct-2022 05:01:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[06-Oct-2022 09:45:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Oct-2022 09:15:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Oct-2022 09:16:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Oct-2022 09:34:50 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Oct-2022 09:35:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Oct-2022 09:37:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Oct-2022 10:20:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 02:50:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:01:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:06:50 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:08:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:09:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:19:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:20:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:29:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:35:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:37:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:37:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:37:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:39:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:48:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:50:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 03:58:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 04:01:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 04:02:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 04:10:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:12:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:12:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:21:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:21:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:33:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:34:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:34:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:36:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 06:36:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 07:54:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 07:54:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[10-Oct-2022 09:05:15 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[11-Oct-2022 04:39:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[11-Oct-2022 04:40:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 08:26:09 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[12-Oct-2022 08:26:36 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[12-Oct-2022 09:09:24 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 09:09:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 09:16:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 09:35:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 09:49:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 09:56:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 09:56:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 09:56:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 10:32:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 10:33:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 10:33:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 10:33:53 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Unknown MySQL error với truy vấn SELECT wp_posts.* FROM wp_posts WHERE ID IN (373) yêu cầu bởi shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cart_Session->maybe_set_cart_cookies, WC_Cart->is_empty, WC_Cart->get_cart, WC_Cart_Session->get_cart_from_session, _prime_post_caches
+[12-Oct-2022 10:34:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 10:34:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 10:35:04 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Oct-2022 10:36:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 08:44:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 09:55:04 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:08:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:09:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:09:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:13:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:17:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:17:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:23:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:26:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:26:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:26:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:27:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:27:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:27:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:27:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:27:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:28:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:28:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:28:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:28:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:17 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:22 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:33 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Oct-2022 10:31:50 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Oct-2022 01:52:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Oct-2022 01:52:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Oct-2022 02:19:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 02:22:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 02:31:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 02:31:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 02:39:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 02:40:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 03:15:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 03:29:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 03:36:50 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[19-Oct-2022 03:37:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 03:40:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 04:03:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 05:59:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 06:05:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 10:22:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 10:23:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 10:23:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 10:23:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 10:24:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 10:24:05 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 10:24:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Oct-2022 10:24:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 03:28:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 03:42:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 03:53:17 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 03:53:22 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 03:53:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 03:57:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:399
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(79): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 399
+[17-Nov-2022 03:58:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:396
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(79): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 396
+[17-Nov-2022 03:58:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:396
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(79): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 396
+[17-Nov-2022 03:58:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:396
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(79): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 396
+[17-Nov-2022 03:58:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:396
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(79): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 396
+[17-Nov-2022 03:59:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:393
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(79): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 393
+[17-Nov-2022 04:00:31 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 04:04:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_in_stock() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:388
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(79): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 388
+[17-Nov-2022 04:04:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_in_stock() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:388
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(356): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(79): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 388
+[17-Nov-2022 04:07:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 04:22:15 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 04:22:17 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 04:22:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 04:29:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 04:30:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 08:30:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 08:49:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:09:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:09:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:11:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:19:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:20:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:20:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:21:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:22:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:22:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:23:39 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:33:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:33:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:33:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:43:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:43:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:44:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:44:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:44:33 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:46:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 09:47:00 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 10:13:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 10:13:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:32:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:39:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:40:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:40:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:40:47 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:41:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:41:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:41:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:42:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:43:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:44:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:44:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:45:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:47:24 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:47:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:54:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:54:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 14:54:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:00:04 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:00:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:01:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:01:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:02:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:02:57 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:03:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:11:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:11:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:11:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:11:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:11:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:23 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:25 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:12:33 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:43:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:43:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:43:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:43:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:43:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:43:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:43:57 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:43:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:44:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:44:02 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:50:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:50:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:50:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:50:53 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:50:54 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:50:55 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:50:57 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:50:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:55:52 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 15:55:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:01:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:01:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:01:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:01:17 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:01:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:01:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:01:21 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:12:33 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:12:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:12:36 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:12:38 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:12:40 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:12:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:12:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:12:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:16:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:16:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:16:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:16:13 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:19:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:19:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:19:44 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:19:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:19:46 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:19:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:19:49 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[17-Nov-2022 16:19:51 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:06 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:17 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:20 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:09:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:10:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:10:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:10:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:11:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:11:57 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:12:32 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:12:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:12:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:13:08 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:13:10 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:13:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:13:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:13:17 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:13:19 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:15:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:15:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:15:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:16:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:16:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:16:37 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:16:42 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:17:43 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:17:48 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:18:33 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:19:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:21:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:22:34 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:22:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:23:01 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:23:03 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:23:07 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:23:09 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:23:11 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:23:14 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[18-Nov-2022 04:33:48 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php on line 153
+[19-Nov-2022 14:56:17 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:43:41 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:45:08 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:50:58 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:51:05 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:51:09 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:51:30 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:52:24 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:53:22 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:53:42 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:53:52 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:54:06 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:54:24 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:57:05 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 08:58:15 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Nov-2022 09:00:34 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Nov-2022 03:24:17 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Nov-2022 03:25:10 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Nov-2022 03:25:30 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Nov-2022 03:27:18 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[29-Nov-2022 10:02:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:49
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(308): woocommerce_quantity_min_10_cart('\t<div class="qi...', 'f9028faec74be6e...', Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(205): WP_Hook->apply_filters('\t<div class="qi...', Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php(130): apply_filters('woocommerce_car...', '\t<div class="qi...', 'f9028faec74be6e...', Array)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/lah69881/...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#5 /home/lah69881/public_html/lahacaf in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 49
+[29-Nov-2022 10:02:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:49
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(308): woocommerce_quantity_min_10_cart('\t<div class="qi...', '013a006f03dbc53...', Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(205): WP_Hook->apply_filters('\t<div class="qi...', Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php(130): apply_filters('woocommerce_car...', '\t<div class="qi...', '013a006f03dbc53...', Array)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/lah69881/...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#5 /home/lah69881/public_html/lahacaf in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 49
+[29-Nov-2022 10:02:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:49
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(308): woocommerce_quantity_min_10_cart('\t<div class="qi...', 'c2626d850c80ea0...', Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(205): WP_Hook->apply_filters('\t<div class="qi...', Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php(130): apply_filters('woocommerce_car...', '\t<div class="qi...', 'c2626d850c80ea0...', Array)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/lah69881/...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#5 /home/lah69881/public_html/lahacaf in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 49
+[29-Nov-2022 10:03:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:49
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(308): woocommerce_quantity_min_10_cart('\t<div class="qi...', 'c2626d850c80ea0...', Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(205): WP_Hook->apply_filters('\t<div class="qi...', Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/cart/cart.php(130): apply_filters('woocommerce_car...', '\t<div class="qi...', 'c2626d850c80ea0...', Array)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/lah69881/...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#5 /home/lah69881/public_html/lahacaf in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 49
+[30-Nov-2022 08:00:36 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Dec-2022 01:30:03 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Dec-2022 01:30:09 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Dec-2022 01:36:29 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Dec-2022 01:41:20 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Dec-2022 01:49:21 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Dec-2022 03:27:38 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Dec-2022 03:27:43 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Dec-2022 03:29:53 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 01:27:54 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 02:42:41 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 03:24:39 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 03:24:55 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 03:24:59 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 03:25:10 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 04:41:42 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 08:21:47 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[05-Dec-2022 08:23:06 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[06-Dec-2022 03:47:54 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[12-Dec-2022 02:39:28 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: Không thể lưu danh sách sự kiện cron., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[12-Dec-2022 03:02:46 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[12-Dec-2022 03:03:05 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[12-Dec-2022 03:03:31 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[12-Dec-2022 05:05:33 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[14-Dec-2022 06:44:57 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 130
+[15-Dec-2022 02:37:47 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[15-Dec-2022 02:38:10 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[15-Dec-2022 07:53:21 UTC] PHP Warning:  Division by zero in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 7
+[15-Dec-2022 07:53:21 UTC] PHP Warning:  Division by zero in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 53
+[15-Dec-2022 07:53:21 UTC] PHP Warning:  Division by zero in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 7
+[15-Dec-2022 09:29:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:476
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(355): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(81): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 476
+[16-Dec-2022 02:01:42 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: Không thể lưu danh sách sự kiện cron., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[16-Dec-2022 02:01:42 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: Không thể lưu danh sách sự kiện cron., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[16-Dec-2022 02:01:42 UTC] Cron unschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: Không thể lưu danh sách sự kiện cron., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[16-Dec-2022 02:20:44 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[17-Dec-2022 08:25:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[17-Dec-2022 08:32:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[19-Dec-2022 01:48:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[19-Dec-2022 01:51:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[19-Dec-2022 01:51:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[19-Dec-2022 01:53:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[19-Dec-2022 06:06:33 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[19-Dec-2022 06:15:29 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[21-Dec-2022 03:55:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[21-Dec-2022 03:56:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[21-Dec-2022 03:57:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[21-Dec-2022 03:59:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[22-Dec-2022 03:42:55 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Dec-2022 06:14:46 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Dec-2022 06:17:21 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[22-Dec-2022 06:46:38 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[23-Dec-2022 01:54:59 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[26-Dec-2022 04:33:13 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[26-Dec-2022 05:56:22 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[26-Dec-2022 08:32:05 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[26-Dec-2022 08:40:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[26-Dec-2022 08:40:16 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[26-Dec-2022 08:40:17 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[26-Dec-2022 08:41:57 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[26-Dec-2022 08:42:44 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[27-Dec-2022 02:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[27-Dec-2022 04:46:09 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[29-Dec-2022 01:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[29-Dec-2022 02:51:18 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: Không thể lưu danh sách sự kiện cron., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[29-Dec-2022 02:51:18 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: Không thể lưu danh sách sự kiện cron., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[29-Dec-2022 03:39:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[29-Dec-2022 06:20:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[02-Jan-2023 12:09:48 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[02-Jan-2023 12:09:57 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Jan-2023 01:49:07 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Jan-2023 03:37:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+[03-Jan-2023 03:44:36 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Jan-2023 03:44:39 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Jan-2023 06:10:15 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Jan-2023 06:10:16 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Jan-2023 06:10:16 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/woocommerce/myaccount/dashboard.php on line 33
+[03-Jan-2023 07:42:59 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 479
+[03-Jan-2023 07:44:31 UTC] PHP Parse error:  syntax error, unexpected '!', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 479
+[03-Jan-2023 07:46:42 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 471
+[03-Jan-2023 07:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_in_stock() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:471
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(355): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(81): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 471
+[03-Jan-2023 08:00:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_in_stock() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:479
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(355): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(81): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 479
+[03-Jan-2023 08:01:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_in_stock() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:471
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(355): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(81): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 471
+[03-Jan-2023 08:44:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_in_stock() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:480
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(355): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(81): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 480
+[04-Jan-2023 02:46:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225

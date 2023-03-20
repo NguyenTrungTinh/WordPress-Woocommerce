@@ -1,0 +1,269 @@
+/*
+Theme Name: Twenty Twenty-Two
+Theme URI: https://wordpress.org/themes/twentytwentytwo/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.
+Requires at least: 5.9
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentytwo
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+
+Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+*/
+
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+
+/* Blocksy theme order review table background and border */
+:root{
+--primary-color: rgb(7, 79, 61);
+--primary-color-rgb: 7,79,61;
+--primary-color-rgb-alpha: 1;
+}
+.template-1{height: 120px;padding: 2% 0;overflow: auto;border-bottom: 1px solid #e0e0e0;}
+.template-1 img{float:left;}
+.template-1 .product-wrapper{float:left; margin-left:3%;}
+.product-price bdi{display: inline-block;color: var(--primary-color);padding: 6px 16px;background: rgba(var(--primary-color-rgb),.1);border-radius: 60px;margin-top: 4px;}
+.home-title{height: 30px;padding: 2% 0;border-bottom: 1px solid #e0e0e0;font-size: 17pt;}
+.banner-header img{height:150px; object-fit:cover;object-position:center;width:100%;border-radius:10px;}
+
+.logo-home{position:relative}
+.logo-home img{width:25%;position:absolute;z-index:999;bottom: 0;left: 10px;border: 5px solid #fff;border-radius:50%;}
+.wp-block-group{position:relative;height:0;}
+.banner-home img{position: absolute;top: 0;left: 0;height: 150px;object-fit: cover;object-position: center;border-radius:10px !important;}
+.wp-container-5 > :where(:not(.alignleft):not(.alignright)){max-width:1000px !important;}
+.title-home{font-size:20pt;font-size:#000;}
+.description-home{color:#6e84a3;font-size:12pt;}
+.wp-container-4{padding-bottom:30px !important;}
+.wp-block-navigation__responsive-container-open{display:none;}
+
+.single-product .wp-container-9 .alignfull {max-width: none;border-top: 1px solid rgba(0,0,0,0.45);position: fixed;bottom: 0;width: 100%;background: 
+rgba(255,255,255,0.72);-webkit-backdrop-filter: saturate(200%) blur(20px);}
+.single-product .wp-container-7{padding-top:0 !important;padding-bottom:0 !important;}
+.wp-container-11 .alignfull {max-width: none;border-top: 1px solid rgba(0,0,0,0.45);position: fixed;bottom: 0;width: 100% !important;background: rgba(255,255,255,0.72);-webkit-backdrop-filter: saturate(200%) blur(20px);}
+.wp-container-9{padding-top:0 !important;padding-bottom:0 !important;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+.woocommerce-page form .quantity .input-text{padding:0;text-align:center;border-radius:4px;}
+.quantity {
+  position: relative;
+}
+.quantity input {
+  width: 45px;
+  height: 42px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid #eee;
+	
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  height: 42px;
+}
+
+.woocommerce .quantity input[type=number] {
+width: 100px;
+height: 42px;
+}
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  width: 42px;
+  height:42px;
+  text-align: center;
+  color: #000;
+  
+  font-size: 26px;
+  font-family: inherit !important;
+/*  line-height: 1.7; */
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.quantity-button.quantity-up {
+  position: absolute;
+  right:84px;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  left:42px;
+}
+.info-quantity{background:#fff;line-height:27px;border-radius:10px;border:1px solid rgb(147, 207, 250);}
+.single-product .quantity-button.quantity-up {position: absolute;right:inherit;}
+.single-product .quantity-nav{float:left;}
+.single-product .woocommerce div.product button.single_add_to_cart_button, .woocommerce div.product button[name=add-to-cart]{margin-top:0;}
+
+.ct-order-review {
+	background: #fbfbfb;
+	border: 2px dashed #ebebeb;
+}
+.ct-cart-form {
+	margin-bottom: 2em;
+	border-bottom: 1px solid #ebebeb;
+}
+
+/* Payment methods background + radio and checkbox customization */
+.payment_methods>li:not(.woocommerce-notice),
+.woocommerce-form__input[type="checkbox"]{
+    background: #fff;
+}
+/* Payment methods background */
+.woocommerce-shipping-totals input[type="radio"] {
+  border: 1px solid #000;
+	background: #fff;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+ * Text and navigation link styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25ch;
+}
+
+a:hover,
+a:focus {
+	text-decoration-style: dashed;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+/*
+ * Search and File Block button styles.
+ * Necessary until the following issues are resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/36444
+ * https://github.com/WordPress/gutenberg/issues/27760
+ */
+
+.wp-block-search__button,
+.wp-block-file .wp-block-file__button {
+	background-color: var(--wp--preset--color--primary);
+	border-radius: 0;
+	border: none;
+	color: var(--wp--preset--color--background);
+	font-size: var(--wp--preset--font-size--medium);
+	padding: calc(.667em + 2px) calc(1.333em + 2px);
+}
+
+/*
+ * Button hover styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+	opacity: 0.90;
+}
+
+/*
+ * Alignment styles.
+ * These rules are temporary, and should not be relied on or
+ * modified too heavily by themes or plugins that build on
+ * Twenty Twenty-Two. These are meant to be a precursor to
+ * a global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+ */
+
+.wp-site-blocks,
+body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
+.wp-block-group.alignfull,
+.wp-block-group.has-background,
+.wp-block-cover.alignfull,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
+.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.wp-site-blocks .alignfull,
+.wp-site-blocks > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-cover,
+.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-template-part > .wp-block-cover,
+body > .is-root-container > .wp-block-cover,
+body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
+body > .is-root-container > .wp-block-template-part > .wp-block-cover,
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
+/* Blocks inside columns don't have negative margins. */
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+/* We also want to avoid stacking negative margins. */
+.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
+.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: inherit;
+}
+
+/*
+ * Responsive menu container padding.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding-top: var(--wp--custom--spacing--outer);
+	padding-bottom: var(--wp--custom--spacing--large);
+	padding-right: var(--wp--custom--spacing--outer);
+	padding-left: var(--wp--custom--spacing--outer);
+}
+

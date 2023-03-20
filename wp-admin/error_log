@@ -1,0 +1,161 @@
+[07-Sep-2022 02:09:27 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Unknown column 'wp_' in 'field list' với truy vấn SELECT wp_
+[07-Sep-2022 06:34:47 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 12
+[07-Sep-2022 08:44:59 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 29
+[07-Sep-2022 08:45:45 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 29
+[07-Sep-2022 08:46:53 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 29
+[07-Sep-2022 09:17:54 UTC] PHP Fatal error:  Cannot redeclare header() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/twentytwentytwo/functions.php on line 12
+[08-Sep-2022 07:29:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 240
+[09-Sep-2022 08:52:31 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 200
+[09-Sep-2022 09:08:02 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 200
+[10-Sep-2022 18:42:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_price() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2012
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php(78): WC_Cart->get_product_subtotal(NULL, NULL)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template.php(772): require('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/lah69881/...', false)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/woocommerce.php(63): wc_get_template_part('content', 'single-product-...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): thim_jck_quickview('')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /h in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2012
+[10-Sep-2022 18:42:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_price() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2012
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php(78): WC_Cart->get_product_subtotal(NULL, NULL)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template.php(772): require('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/lah69881/...', false)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/woocommerce.php(63): wc_get_template_part('content', 'single-product-...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): thim_jck_quickview('')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /h in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2012
+[10-Sep-2022 18:42:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_price() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2012
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php(78): WC_Cart->get_product_subtotal(NULL, NULL)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template.php(772): require('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/lah69881/...', false)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/woocommerce.php(63): wc_get_template_part('content', 'single-product-...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): thim_jck_quickview('')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /h in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2012
+[10-Sep-2022 18:42:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_price() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2012
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php(78): WC_Cart->get_product_subtotal(NULL, NULL)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template.php(772): require('/home/lah69881/...')
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/lah69881/...', false)
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/woocommerce.php(63): wc_get_template_part('content', 'single-product-...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): thim_jck_quickview('')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /h in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2012
+[15-Sep-2022 01:45:45 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 106
+[19-Sep-2022 08:58:22 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 124
+[19-Sep-2022 08:58:37 UTC] PHP Parse error:  syntax error, unexpected ' if' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 124
+[19-Sep-2022 08:58:45 UTC] PHP Parse error:  syntax error, unexpected ' if' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 124
+[19-Sep-2022 08:59:18 UTC] PHP Parse error:  syntax error, unexpected ' if' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 124
+[19-Sep-2022 09:03:18 UTC] PHP Parse error:  syntax error, unexpected ' if' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 124
+[30-Sep-2022 01:41:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php:40
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template.php(772): require()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/lah69881/...', false)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/woocommerce.php(63): wc_get_template_part('content', 'single-product-...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): thim_jck_quickview('')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-admin/admin- in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php on line 40
+[30-Sep-2022 01:41:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php:40
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template.php(772): require()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/lah69881/...', false)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/woocommerce.php(63): wc_get_template_part('content', 'single-product-...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): thim_jck_quickview('')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-admin/admin- in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php on line 40
+[30-Sep-2022 01:41:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php:40
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template.php(772): require()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/lah69881/...', false)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/woocommerce.php(63): wc_get_template_part('content', 'single-product-...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(307): thim_jck_quickview('')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/wp-admin/admin- in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma/woocommerce/content-single-product-lightbox.php on line 40
+[10-Oct-2022 09:55:13 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 5
+[10-Oct-2022 09:55:39 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 5
+[10-Oct-2022 09:56:46 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 5
+[11-Oct-2022 03:46:26 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 6
+[11-Oct-2022 03:46:50 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 6
+[11-Oct-2022 03:46:59 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 6
+[11-Oct-2022 03:56:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function variation_price_custom_suffix(), 1 passed in /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php on line 309 and exactly 3 expected in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:3
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(309): variation_price_custom_suffix(Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(364): apply_filters('woocommerce_ava...', Array, Object(WC_Product_Variable), Object(WC_Product_Variation))
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#4 /home/lah69881/public_html/l in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 3
+[11-Oct-2022 03:57:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function variation_price_custom_suffix(), 1 passed in /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php on line 309 and exactly 3 expected in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:3
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(309): variation_price_custom_suffix(Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(364): apply_filters('woocommerce_ava...', Array, Object(WC_Product_Variable), Object(WC_Product_Variation))
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#4 /home/lah69881/public_html/l in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 3
+[11-Oct-2022 03:57:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function variation_price_custom_suffix(), 1 passed in /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php on line 309 and exactly 3 expected in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:3
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(309): variation_price_custom_suffix(Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(364): apply_filters('woocommerce_ava...', Array, Object(WC_Product_Variable), Object(WC_Product_Variation))
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#4 /home/lah69881/public_html/l in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 3
+[11-Oct-2022 03:57:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function variation_price_custom_suffix(), 1 passed in /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php on line 309 and exactly 3 expected in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:3
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(309): variation_price_custom_suffix(Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(364): apply_filters('woocommerce_ava...', Array, Object(WC_Product_Variable), Object(WC_Product_Variation))
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#4 /home/lah69881/public_html/l in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 3
+[11-Oct-2022 03:57:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function variation_price_custom_suffix(), 1 passed in /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php on line 309 and exactly 3 expected in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:3
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(309): variation_price_custom_suffix(Array)
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(364): apply_filters('woocommerce_ava...', Array, Object(WC_Product_Variable), Object(WC_Product_Variation))
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#4 /home/lah69881/public_html/l in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 3
+[11-Oct-2022 03:57:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function variation_price_custom_suffix(), 2 passed in /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php on line 309 and exactly 3 expected in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:3
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(309): variation_price_custom_suffix(Array, Object(WC_Product_Variable))
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(364): apply_filters('woocommerce_ava...', Array, Object(WC_Product_Variable), Object(WC_Product_Variation))
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
+#4 in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 3
+[11-Oct-2022 04:09:12 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 4
+[11-Oct-2022 04:09:24 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 4
+[11-Oct-2022 04:09:36 UTC] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 4
+[17-Oct-2022 10:36:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 156
+[17-Nov-2022 04:03:45 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 419
+[29-Nov-2022 10:01:44 UTC] PHP Fatal error:  Cannot redeclare woocommerce_quantity_min_10() (previously declared in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:5) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 43
+[05-Dec-2022 02:57:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Plugin_Updates' not found in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/views/html-admin-page-status-report.php:26
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-status.php(30): include_once()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/views/html-admin-page-status.php(43): WC_Admin_Status::status_report()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-status.php(23): include_once('/home/lah69881/...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(300): WC_Admin_Status::output()
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(308): WC_Admin_Menus->status_page('')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.ph in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/views/html-admin-page-status-report.php on line 26
+[05-Dec-2022 03:03:05 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Plugin_Updates' not found in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/views/html-admin-page-status-report.php:26
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-status.php(30): include_once()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/views/html-admin-page-status.php(43): WC_Admin_Status::status_report()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-status.php(23): include_once('/home/lah69881/...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(300): WC_Admin_Status::output()
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.php(308): WC_Admin_Menus->status_page('')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/class-wp-hook.ph in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/admin/views/html-admin-page-status-report.php on line 26
+[05-Dec-2022 16:25:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/kiotvietsync/helpers/KiotvietSyncHelper.php on line 64
+[05-Dec-2022 16:26:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/kiotvietsync/helpers/KiotvietSyncHelper.php on line 25
+[06-Dec-2022 02:01:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/kiotvietsync/helpers/KiotvietSyncHelper.php on line 25
+[06-Dec-2022 09:49:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/kiotvietsync/helpers/KiotvietSyncHelper.php on line 25
+[14-Dec-2022 06:44:57 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 130
+[15-Dec-2022 02:38:07 UTC] WordPress database error Duplicate column name 'mobile' for query ALTER TABLE `wp_litespeed_url_file`
+				ADD COLUMN `mobile` tinyint(4) NOT NULL COMMENT "mobile=1",
+				ADD COLUMN `webp` tinyint(4) NOT NULL COMMENT "webp=1"
+			 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/litespeed-cache/litespeed-cache.php'), run_litespeed_cache, LiteSpeed\Root::cls, LiteSpeed\Core->__construct, LiteSpeed\Conf->init, LiteSpeed\Conf->_conf_db_init, LiteSpeed\Data->conf_upgrade, call_user_func, litespeed_update_5_3
+[03-Jan-2023 07:42:59 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 479
+[03-Jan-2023 07:44:31 UTC] PHP Parse error:  syntax error, unexpected '!', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 479
+[03-Jan-2023 07:46:42 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 471
+[03-Jan-2023 08:38:00 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 511

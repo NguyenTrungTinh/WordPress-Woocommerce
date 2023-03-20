@@ -1,0 +1,12 @@
+2022-12-15T09:29:30+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php:476
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(355): product_laha(Array, '', 'product_laha_sh...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_laha_s...')
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/page-templates/home.php(81): do_shortcode('[product_laha_s...')
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-includes/template-loader.php(106): include('/home/lah69881/...')
+#5 /home/lah69881/public_html/lahacafe.vn/banhang/wp-blog-header.php(19): require_once('/home/lah69881/...')
+#6 /home/lah69881/public_html/lahacafe.vn/banhang/index.php(17): require('/home/lah69881/...')
+#7 {main}
+  thrown in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/themes/eduma-child/functions.php on line 476
+

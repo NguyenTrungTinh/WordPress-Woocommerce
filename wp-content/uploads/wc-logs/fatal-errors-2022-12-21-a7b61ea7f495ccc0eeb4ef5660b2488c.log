@@ -1,0 +1,36 @@
+2022-12-21T03:55:59+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+
+2022-12-21T03:56:35+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+
+2022-12-21T03:57:19+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+
+2022-12-21T03:59:04+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(699): WC_Cart->calculate_totals()
+#5 /home/lah69881/public_html/lahacafe.vn/banha in /home/lah69881/public_html/lahacafe.vn/banhang/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 225
+
